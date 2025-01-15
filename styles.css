@@ -131,3 +131,26 @@ footer {
   margin: 20px;
   font-size: 2vw;
 }
+
+/*Formatting for contact form page*/
+form {
+  text-align: center;
+  padding-top: 0;
+}
+form * {
+  margin-bottom: 0.5vh;
+  padding-top: 0;
+}
+#button {
+  background-color: #2F2504;
+  color: #D0DDD7;
+  height: 5vh;
+  width: 8vw;
+  cursor: pointer;
+  margin: 3vh;
+}
+#message-box {
+  height: 10vh;
+  width: 20vw;
+  text-align: start;
+}
