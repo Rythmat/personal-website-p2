@@ -1,0 +1,143 @@
+html {
+background-color: #7E846B;
+}
+
+body {
+  background-color: #7E846B;
+  color: #D0DDD7;
+  border: 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  bottom: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px; 
+  padding-bottom: 30px;
+  margin: 20px;
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2vw;
+  margin: 20px;
+}
+
+p {
+  font-size: larger;
+}
+
+nav {
+  background-color: #2F2504;
+  height: 70px;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 12px -2px #2F2504;
+  justify-content: space-between;
+}
+
+nav > a {
+  display: table-cell;
+  text-align: center;
+  color: #D0DDD7;
+  vertical-align: middle;
+  font-size: 2vw;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #594E36;
+  border-top: 2px solid #7E846B;
+  border-left: 1px solid #2F2504;
+  border-right: 1px solid #2F2504;
+  border-bottom: 2px solid #7E846B;
+  padding-bottom: 0;
+}
+
+
+footer {
+  background-color: #2F2504;
+  color: #A5AE9E;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 12px -2px black;
+  text-align: center;
+}
+
+footer > a {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.statement > img {
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 380px;
+  float: right;
+}
+
+.hobbies > img {
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 380px;
+}
+
+.hobbies p {
+  margin: 20px;
+}
+
+.lastp {
+  padding-bottom: 20px;
+}
+
+.portfolio {
+  height: 420px;
+}
+
+.portfolio img {
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 380px;
+}
+
+.portfolio span {
+  border-top: 2px solid #7E846B;
+  border-bottom: 2px solid #7E846B;
+  border-right: 2px solid #7E846B;
+  border-left: 2px solid #7E846B;
+}
+.portfolio p {
+  margin: 20px;
+  font-size: 2vw;
+}
+
+.statement {
+  height: 420px;
+}
+
+.statement *{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 2vw;
+}
